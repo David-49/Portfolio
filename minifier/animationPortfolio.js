@@ -1,0 +1,2 @@
+$(window).scroll(function()
+{if($(window).scrollTop()>100){$('.retourHaut').fadeIn(300)}else{$('.retourHaut').fadeOut(100)}});var btn=document.querySelector('.burger');var nav=document.querySelector('.navResponsive');btn.onclick=function(){nav.classList.toggle('navResponsive_open')};var burger=document.querySelector('.burger');burger.addEventListener('click',function(){burger.classList.toggle('active')});$('.goTitreToggle').click(function(){nav.classList.toggle('navResponsive_open');burger.classList.toggle('active')})

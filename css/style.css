@@ -1,0 +1,1135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*:hover {
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    overflow-x: hidden !important;
+    position: relative;
+}
+
+.accueil {
+    height: 100vh;
+    position: relative;
+}
+
+.retourHaut {
+    position: fixed;
+    z-index: 4020;
+    right: 25px;
+    bottom: 50px;
+    background-color: white;
+    border-radius: 3px;
+    padding: 4px;
+}
+
+.retourHaut:hover {
+    background-color: #f4d03e;
+}
+
+.fleche {
+    width: 35px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nomLogo {
+    text-transform: uppercase;
+    color: #396EF1;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 2;
+}
+
+.nomLogo:active {
+    outline: 0;
+}
+
+.nav {
+    width: 30%;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #396EF1;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.goTitre {
+    color: black;
+}
+
+.goTitre:hover {
+    color: #f4d03e;
+}
+
+.burger, .blocMenuResponsive {
+    display: none;
+}
+
+.presentation {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+}
+
+.titre {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.sousTitre {
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.illustration {
+    background-image: url('../img/illustration/version_bleu.svg');
+    width: 441px;
+    height: 470px;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.credit {
+    position: absolute;
+    bottom: 0.3%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #dfe6f6;
+    cursor: default;
+}
+
+.reseauxSociaux {
+    position: fixed;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 330px;
+    z-index: 1000;
+}
+
+.reseauxSociaux img {
+    width: 50px;
+    background-color: #396EF1;
+    padding: 10px;
+    border-radius: 6px 0 0 6px;
+}
+
+.reseauxSociaux img:hover {
+    background-color: #f4d03e;
+}
+
+/* div qui fait suite à la div accueil*/
+.partieDeux {
+    background-color: #2754C5;
+    position: relative;
+    width: 100%;
+}
+
+.cls-1 {
+    fill: #396ef1;
+    stroke: #396ef1;
+    stroke-miterlimit: 10;
+}
+
+.blocIntroduction {
+    position: absolute;
+    z-index: 2020;
+    top: 3%;
+    left: 50%;
+    color: white;
+    width: 40%;
+    transform: translateX(-50%);
+}
+
+.mettreEnAvant {
+    color: #f4d03e;
+    font-weight: bold;
+}
+
+.titreIntro {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.introParagraphe {
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 40px;
+    line-height: 3rem;
+}
+
+.titreComp {
+    font-size: 3rem;
+    color: black;
+    padding: 5px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: white;
+    width: 18%;
+}
+
+/*tous les styles pour le triangle 1*/
+.blocTriangle {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.triangle1 {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 240px 0 250px 1289px;
+    border-color: transparent transparent transparent #ffffff;
+}
+
+.competences1 {
+    position: absolute;
+    z-index: 2;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dev {
+    width: 30%;
+}
+
+.langages {
+    border-left: solid #396EF1;
+    border-width: 8px;
+    padding-left: 15px;
+}
+
+.outils1 {
+    border-left: solid #396EF1;
+    border-width: 8px;
+    padding-left: 15px;
+}
+
+/*placement de la première illustration de sous-marin*/
+.sousMarin1 {
+    background-image: url(../img/illustration/sous_marin.svg);
+    width: 176px;
+    height: 135px;
+    background-size: cover;
+    margin-bottom: 4%;
+}
+
+.bulle {
+    position: absolute;
+    z-index: 1;
+    top: -55%;
+    right: 50%;
+    transform: translateX(550%);
+}
+
+.bulle_1 {
+    background-image: url(../img/illustration/bulle_1.svg);
+    background-size: cover;
+    width: 51.899px;
+    height: 50.183px;
+    animation-name: mouvementBulle1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mouvementBulle1 {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(5px);
+    }
+}
+
+.bulle_2 {
+    background-image: url(../img/illustration/bulle_2.svg);
+    background-size: cover;
+    width: 64.017px;
+    height: 60.565px;
+    animation-name: mouvementBulle2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes mouvementBulle2 {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(-5px);
+    }
+}
+
+.bulle_3 {
+    background-image: url(../img/illustration/bulle_3.svg);
+    background-size: cover;
+    width: 64.019px;
+    height: 62.283px;
+    animation-name: mouvementBulle3;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.4s;
+}
+
+@keyframes mouvementBulle3 {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(-5px);
+    }
+}
+
+.bulle_4 {
+    background-image: url(../img/illustration/bulle_4.svg);
+    background-size: cover;
+    width: 72.66px;
+    height: 72.66px;
+    animation-name: mouvementBulle4;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.7s;
+}
+
+@keyframes mouvementBulle4 {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(5px);
+    }
+}
+
+.bulle_5 {
+    background-image: url(../img/illustration/bulle_5.svg);
+    background-size: cover;
+    width: 89.979px;
+    height: 88.243px;
+    animation-name: mouvementBulle5;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes mouvementBulle5 {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(-5px);
+    }
+}
+
+.bulle_x {
+    margin-bottom: 10px;
+}
+
+/*********************************************/
+/*tous les styles pour le triangle 2*/
+.blocTriangle2 {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.sousMarin2 {
+    background-image: url(../img/illustration/sous_marin.svg);
+    width: 176px;
+    height: 135px;
+    background-size: cover;
+    transform: rotateY(180deg);
+    margin-bottom: 4%;
+}
+
+.triangle2 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 240px 929px 250px 0;
+    border-color: transparent #ffffff transparent transparent;
+}
+
+.competences2 {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-80%);
+}
+
+.design {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.outils2 {
+    padding-left: 20px;
+    border-left: solid #396EF1;
+    border-width: 8px;
+}
+
+/***************************************************/
+.titreDev, .titreDesign {
+    font-size: 3rem;
+    position: relative;
+}
+
+.titreDev::before, .titreDesign::before {
+    content: '';
+    height: 4px;
+    width: 0;
+    background-color: #f4d03e;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: width 0.5s ease-in-out;
+    -webkit-transition: width 0.5s ease-in-out;
+}
+
+.titreDev:hover::before, .titreDesign:hover::before {
+    width: 100%;
+}
+
+.paraDesign, .paraDev, .listOutils, .titreOutils {
+    font-size: 2rem;
+}
+
+.titreOutils {
+    color: #396EF1;
+    text-align: center;
+}
+
+.paraDesign, .paraDev {
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.blocOutils {
+    margin-top: 20px;
+}
+
+.listOutils {
+    text-align: center;
+}
+
+/*début du bloc contenant les projets*/
+.blocBasSuite {
+    width: 100%;
+    background-color: white;
+}
+
+.titreProjet {
+    text-decoration: underline #396EF1;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.blocProjet {
+    padding: 100px 0 100px 0;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projet {
+    width: 40%;
+    margin: 10px;
+    position: relative;
+}
+
+.imageP {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/*fait apparaitre le texte au survol de l'image*/
+.projet:hover .overlay {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2000;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(39, 84, 197, 0.9);
+}
+
+.blocDesc {
+    font-size: 1.9rem;
+    color: white;
+    position: absolute;
+    z-index: 2001;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.textDesc {
+    margin: 20px 0 20px 0;
+}
+
+.footer {
+    background-color: #2754C5;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signature {
+    font-size: 1.4rem;
+    color: white;
+}
+
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/*                  Page mentions legales                     */
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+.blocMention {
+    width: 60%;
+    padding-top: 100px;
+    margin: auto;
+    margin-top: 6%;
+    font-size: 2rem;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.blocMention strong {
+    padding: 10px 0 10px 0;
+}
+
+.titreMention {
+    font-size: 6rem;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: -20%;
+}
+
+.sousTitreMention {
+    margin: 35px 0 15px 0;
+    font-size: 2.2rem;
+}
+
+.blocMention p {
+    padding: 10px 0 10px 0;
+    font-size: 1.8rem;
+}
+
+.lienMention {
+    color: white;
+    margin-top: 10px;
+}
+
+/************************************************************************/
+/************************************************************************/
+/************************************************************************/
+/************************************************************************/
+/************************************************************************/
+/************************************************************************/
+/************************************************************************/
+/*                            Page contact                              */
+/************************************************************************/
+/************************************************************************/
+/************************************************************************/
+/************************************************************************/
+/************************************************************************/
+/************************************************************************/
+.blocContact {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    width: 40%;
+}
+
+.contactMe {
+    font-size: 6rem;
+    margin-bottom: 40px;
+}
+
+.methode1 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+}
+
+.methode1 p {
+    margin-right: 10px;
+}
+
+.lienMail {
+    position: relative;
+}
+
+.lienMail:hover {
+    color: #396EF1;
+}
+
+.methode2 {
+    font-size: 2rem;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.lienMail::before {
+    content: '';
+    height: 4px;
+    width: 0;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 100%;
+    background-color: #f4d03e;
+    transition: width 0.5s ease-in-out;
+    -webkit-transition: width 0.5s ease-in-out;
+}
+
+.lienMail:hover::before {
+    width: 100%;
+}
+
+.formulaireContact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.formulaireContact label {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.formulaireContact input, textarea {
+    padding: 10px;
+}
+
+.boutonForm {
+    background-color: white;
+    height: 30px;
+    width: 20%;
+    border: solid 2px;
+    margin: auto;
+    margin-top: 20px;
+    color: #396EF1;
+    font-weight: bold;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.boutonForm:hover {
+    background-color: #f4d03e;
+    border: #f4d03e;
+    color: #396EF1;
+}
+
+.msgPositif {
+    background-color: #396EF1;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.msgNegatif {
+    border: solid #F5A218;
+    background-color: #F5A218;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.recaptcha {
+    margin-top: 20px;
+}
+
+/************************************************************************/
+/************************************************************************/
+/************************************************************************/
+/************************************************************************/
+/************************************************************************/
+/************************************************************************/
+/************************************************************************/
+/*                            Responsives Design                        */
+/************************************************************************/
+/************************************************************************/
+/************************************************************************/
+/************************************************************************/
+/************************************************************************/
+/************************************************************************/
+@media screen and (max-width: 1540px) {
+    .nomLogo {
+        font-size: 2rem;
+        margin: 10px 5px;
+    }
+
+    .reseauxSociaux img {
+        width: 40px;
+        padding: 7px;
+    }
+
+    .titre {
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    .sousTitre {
+        margin-top: 10px;
+        font-size: 1.9rem;
+    }
+
+    .illustration {
+        width: 360px;
+        height: 379px;
+    }
+
+    .credit {
+        font-size: 0.4rem;
+        bottom: 0.1%;
+    }
+
+    .triangle1 {
+        border-width: 240px 0 250px 1089px;
+    }
+
+    .bulle {
+        right: 53%;
+    }
+
+    .titreComp, .titreProjet {
+        font-size: 2.7rem;
+    }
+}
+
+/*media queries pour tablette*/
+@media screen and (max-width: 780px) {
+    .header {
+        position: fixed;
+        background-color: white;
+        width: 100vw;
+        z-index: 4100;
+    }
+
+    .bulle, .sousMarin_x, .triangle1, .triangle2, .formeVague, .menu, .reseauxSociaux {
+        display: none;
+    }
+
+    .burger, .blocMenuResponsive {
+        display: block;
+    }
+
+    .burger {
+        margin-top: 0px;
+        margin-right: 20px;
+        width: 42px;
+        height: 42px;
+        cursor: pointer;
+        position: absolute;
+        z-index: 4500;
+        float: right;
+    }
+
+    /* permet de fixer à l'écran la croix du burger menu */
+    .active {
+        position: fixed;
+        z-index: 4500;
+    }
+
+    .burger span {
+        width: 100%;
+        height: 4px;
+        background: #396EF1;
+        display: block;
+        position: absolute;
+        z-index: 4500;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: background-color 0.5s ease-in-out;
+    }
+
+    .burger span::before, .burger span::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        background: #396EF1;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .burger span::before {
+        transform: translateY(-10px);
+    }
+
+    .burger span::after {
+        transform: translateY(10px);
+    }
+
+    .burger.active span {
+        background-color: transparent;
+    }
+
+    .burger.active span::before {
+        transform: translateY(0px) rotateZ(45deg);
+        background: #f4d03e;
+    }
+
+    .burger.active span::after {
+        transform: translateY(0px) rotateZ(-45deg);
+        background: #f4d03e;
+    }
+
+    .blocMenuResponsive {
+        height: 100vh;
+        width: 300px;
+        background: #396EF1;
+        padding-top: 30px;
+    }
+
+    .navResponsive {
+        position: fixed;
+        right: -300px;
+        /* z-index de 1 pour sûr qu'il au dessus de l'illustration*/
+        z-index: 1;
+        transition-duration: 0.5s;
+        top: 0;
+    }
+
+    .navResponsive_open {
+        position: fixed;
+        right: 0px;
+        top: 0;
+        z-index: 4499;
+        transition-duration: 0.5s;
+    }
+
+    .menuResponsive {
+        padding-top: 80px;
+        font-size: 2.2rem;
+    }
+
+    .blocMenuResponsive a {
+        color: white;
+        text-align: center;
+        margin-top: 30px;
+        display: block;
+    }
+
+    .reseauxSociauxToggle {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 80px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .reseauxSociauxToggle img {
+        width: 40px;
+        padding: 1px;
+    }
+
+    .blocIntroduction {
+        width: 100%;
+        background-color: #396EF1;
+        position: static;
+        padding: 100px 20px 100px 20px;
+        transform: translateX(0);
+    }
+
+    .titreComp {
+        font-size: 2.5rem;
+        border-radius: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .blocTriangle {
+        padding-top: 80px;
+    }
+
+    .blocTriangle2 {
+        padding: 20px 0 80px 0;
+    }
+
+    .competences1, .competences2 {
+        position: static;
+        transform: translateY(0);
+        align-items: center;
+        width: auto;
+        padding: 10px 0 10px 0;
+        text-align: center;
+        color: white;
+        margin: auto;
+    }
+
+    .titreDev::before, .titreDesign::before {
+        height: 0;
+    }
+
+    .dev, .design {
+        padding: 10px;
+    }
+
+    .titreDev {
+        margin-right: 10px;
+    }
+
+    .langages {
+        margin-left: 25px;
+    }
+
+    .outils2 {
+        padding-left: 30px;
+    }
+
+    .outils1, .outils2, .langages {
+        padding: 10px;
+        border-left: solid #f4d03e 6px;
+    }
+
+    .titreOutils {
+        color: white;
+        font-weight: bold;
+    }
+
+    .blocProjet {
+        padding: 50px 0 50px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projet {
+        width: 95%;
+    }
+
+    .blocDesc {
+        font-size: 1.8rem;
+        width: 90%;
+    }
+
+    /*************************************************/
+    /* Page mentions légales*/
+    /***********************************************/
+    .blocMention {
+        width: 80%;
+    }
+
+    .titreMention {
+        position: static;
+        margin-bottom: 40px;
+    }
+
+    /*************************************************/
+    /* Page contact*/
+    /***********************************************/
+    .blocContact {
+        width: 90%;
+    }
+}
+
+/*media queries pour mobile*/
+@media screen and (max-width: 500px) {
+
+    /*cache tous ce qui n'est plus nécessaire en version mobile*/
+    .bulle, .sousMarin_x, .triangle1, .triangle2, .formeVague, .menu, .reseauxSociaux {
+        display: none;
+    }
+
+    .accueil {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        padding: 10px;
+    }
+
+    .retourHaut {
+        right: 10px;
+    }
+
+    .nomLogo {
+        font-size: 1.8rem;
+        margin: 10px 5px;
+    }
+
+    .nav {
+        margin: 0;
+    }
+
+    .presentation {
+        width: 95%;
+    }
+
+    .titre {
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    .sousTitre {
+        margin-top: 10px;
+        font-size: 1.9rem;
+    }
+
+    .illustration {
+        width: 260px;
+        height: 279px;
+    }
+
+    .titreIntro {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .competences1, .competences2 {
+        flex-direction: column;
+    }
+
+    .dev, .design {
+        width: 90%;
+        border-right: none;
+        padding-top: 15px;
+    }
+
+    .design {
+        border-top: solid white 8px;
+    }
+
+    .outils1, .outils2, .langages {
+        border: none;
+    }
+
+    .titreOutils {
+        color: #f4d03e;
+    }
+
+    .titreProjet {
+        font-size: 3rem;
+    }
+
+    .blocDesc {
+        font-size: 1.4rem;
+    }
+
+    .signature {
+        font-size: 1.4rem;
+    }
+
+    /*************************************************/
+    /* Page mentions légales*/
+    /***********************************************/
+    .titreMention {
+        font-size: 2.5rem;
+    }
+
+    .sousTitreMention {
+        font-size: 2rem;
+    }
+
+    .blocMention p {
+        font-size: 1.5rem;
+    }
+
+    /*************************************************/
+    /* Page contact*/
+    /***********************************************/
+    .contactMe {
+        font-size: 4rem;
+    }
+
+    .boutonForm {
+        width: 30%;
+    }
+}

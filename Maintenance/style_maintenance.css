@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*:hover {
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.maintenance {
+    height: 100vh;
+    width: 100vw;
+    background-color: #396EF1;
+    position: relative;
+}
+
+.blocPhraseMaintenance {
+    text-align: center;
+    padding-top: 25%;
+    transform: translateY(-25%);
+}
+
+.phraseMaintenance {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.phraseMaintenance2 {
+    font-size: 3rem;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.chargement {
+    text-align: center;
+}
+
+.chargement span {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+    background-color: #f4d03e;
+    border-radius: 50%;
+    display: inline-block;
+    animation-name: points;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.chargement span:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.chargement span:nth-child(3) {
+    animation-delay: 0.8s;
+}
+
+@keyframes points {
+    50% {
+        opacity: 0;
+        transform: scale(0.7) translateY(10px);
+    }
+}
+
+.reseauxSociauxMaintenance {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.reseauxSociauxMaintenance i {
+    font-size: 5rem;
+    color: #fff;
+}
+
+.reseauxSociauxMaintenance i:hover {
+    color: #f4d03e;
+}
+
+@media screen and (max-width: 500px) {
+    .blocPhraseMaintenance {
+        text-align: center;
+        padding-top: 80%;
+        transform: translateY(0);
+    }
+
+    .phraseMaintenance {
+        font-size: 2rem;
+    }
+
+    .phraseMaintenance2 {
+        font-size: 1.5rem;
+    }
+
+    .chargement {
+        margin-top: 60px;
+    }
+
+    .chargement span {
+        width: 20px;
+        height: 20px;
+    }
+}
