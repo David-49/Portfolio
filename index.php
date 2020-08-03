@@ -99,6 +99,20 @@
           <div class="blocProjet">
 
             <div class="projet">
+              <img class="imageP" src="img/img_projets/page_accueil_cyclez-min.png" alt="Capture d'écran de la page d'accueil du site que j'ai créé j'ai Cyclez lors de mon stage">
+              <div class="overlay">
+                <div class="blocDesc">
+                  <h3>Cyclez</h3>
+                  <p class="textDesc">
+                    Lors de mon stage dans l'entreprise Cyclez, j'ai fait une refonte de leur site web actuel. 
+                    <br/>
+                    Ce site a été réalisé sur WordPress.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="projet">
               <img class="imageP" src="img/img_projets/projet_partiel.jpg" alt="Photo représentant une page d'un site web que j'ai réalisé lors de mes partiels">
               <div class="overlay">
                 <div class="blocDesc">
