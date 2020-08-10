@@ -4,10 +4,13 @@
 <head>
     <meta name="description" content="Étudiant dans une formation 'Web & Digital'. Je suis un grand passionné des nouvelles technologies et toujours curieux d'en apprendre plus.">
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+
+     <link rel="stylesheet" href="./css/style.min.css">
+
     <script src="https://kit.fontawesome.com/b51ebbfc71.js" crossorigin="anonymous"></script>
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap" rel="stylesheet">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162256494-1"></script>
     <script>
