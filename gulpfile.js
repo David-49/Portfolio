@@ -11,9 +11,7 @@ const uglify = require("gulp-uglify");
 const gulpIf = require("gulp-if");
 
 function processFiles() {
-  return src(["src/**/*.php", "src/favicon.ico"])
-    .pipe(modifyHREF())
-    .pipe(dest("dist"));
+  return src("src/**/*.php").pipe(modifyHREF()).pipe(dest("dist"));
 }
 
 function hiddenFiles() {

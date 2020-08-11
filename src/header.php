@@ -12,6 +12,9 @@
     <script src="https://kit.fontawesome.com/b51ebbfc71.js" crossorigin="anonymous"></script>
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./img/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="./img/favicon-32x32.png" sizes="32x32">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/iPhone-6-Plus.png">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162256494-1"></script>
