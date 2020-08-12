@@ -1188,3 +1188,16 @@ textarea {
     width: 30%;
   }
 }
+
+@media screen and (max-width: 351px) {
+  .presentation {
+    margin-top: 15px;
+  }
+
+  .titre {
+    font-size: 2.4rem;
+  }
+  .annonce {
+    font-size: 2.2rem;
+  }
+}

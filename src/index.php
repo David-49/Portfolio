@@ -8,7 +8,7 @@
         <p class="sousTitre">Bienvenue sur mon portfolio</p>
       </div>
       <div class="illustration"></div>
-      <a class="credit" href="https://www.freepik.com/free-photos-vectors/people">People vector created by pikisuperstar - www.freepik.com</a>
+      <!-- <a class="credit" href="https://www.freepik.com/free-photos-vectors/people">People vector created by pikisuperstar - www.freepik.com</a> -->
 
 <?php include('reseauxSociaux.php'); ?>
 
