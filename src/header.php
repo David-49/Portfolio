@@ -7,7 +7,7 @@
 
      <!--  build:css ./css/style.min.css -->
     <link rel="stylesheet" href="./css/style.css">
-   <!-- /build -->
+    <!-- endbuild -->
 
     <script src="https://kit.fontawesome.com/b51ebbfc71.js" crossorigin="anonymous"></script>
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
