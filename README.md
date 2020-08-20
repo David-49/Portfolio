@@ -1,6 +1,6 @@
 # Mon Portfolio ✌
  
-![Design preview homepage(preview_home_page_portfolio.png)
+![Design preview homepage(./preview_home_page_portfolio.png)
 
 ## Techno utilisé 💻 :
 
