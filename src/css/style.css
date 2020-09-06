@@ -4,20 +4,6 @@
   box-sizing: border-box;
 }
 
-.annonce {
-  font-size: 2.4vw;
-  font-weight: bold;
-  width: 100%;
-  text-align: center;
-  padding: 15px;
-  /*   background-color: #396ef1; */
-  text-decoration: underline wavy #f4d03e;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 100px;
-}
-
 *:hover {
   outline: 0;
 }
@@ -831,10 +817,6 @@ textarea {
     z-index: 4100;
   }
 
-  .annonce {
-    font-size: 2.5rem;
-  }
-
   .bulle,
   .sousMarin_x,
   .triangle1,
@@ -1196,8 +1178,5 @@ textarea {
 
   .titre {
     font-size: 2.4rem;
-  }
-  .annonce {
-    font-size: 2.2rem;
   }
 }

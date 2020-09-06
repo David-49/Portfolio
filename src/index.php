@@ -1,9 +1,7 @@
 <?php include('header.php'); ?>
 
 
-  <p class="annonce">📢 Dernière nouvelle 📰 : Je suis à la recherche d'une alternance pour septembre 2020 ! 🚨</p>
       <div class="presentation">
-
         <h1 class="titre">Bonjour, je m'appelle David Dognin</h1>
         <p class="sousTitre">Bienvenue sur mon portfolio</p>
       </div>
