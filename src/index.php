@@ -78,7 +78,7 @@
           <div class="competences2">
             <div class="design">
               <p class="titreDesign">Design</p>
-              <p class="paraDesign">Une idée est c'est parti pour créer.</p>
+              <p class="paraDesign">Une idée et c'est parti pour créer.</p>
             </div>
             <div class="outils2">
               <p class="titreOutils">Outils que j'utilise :</p>
@@ -99,15 +99,38 @@
           <div class="blocProjet">
 
             <div class="projet">
-              <img class="imageP" src="img/img_projets/page_accueil_cyclez-min.png" alt="Capture d'écran de la page d'accueil du site que j'ai créé j'ai Cyclez lors de mon stage">
+              <img class="imageP" src="img/img_projets/page_accueil_cyclez-min.png" alt="Page d'accueil du site web cyclez.com">
               <div class="overlay">
                 <div class="blocDesc">
-                  <h3>Cyclez</h3>
-                  <p class="textDesc">
-                    Lors de mon stage dans l'entreprise Cyclez, j'ai fait une refonte de leur site web actuel. 
-                    <br/>
-                    Ce site a été réalisé sur WordPress.
-                  </p>
+                <a href="https://www.cyclez.com/" class="lien-projet"><i class="fas fa-external-link-alt"></i> Voir le site</a>
+                <div class="discover-project">
+                  <?php
+                  if ($adresse == "localhost") {
+                      $projetCyclez = 'cyclez.php';
+                  } elseif ($adresse == "daviddognin.com" || $adresse == "www.daviddognin.com") {
+                      $projetCyclez = 'https://daviddognin.com/cyclez.php';
+                  }
+                  ?>
+                  <a href="<?= $projetCyclez; ?>" class="see-more">Découvrir l'histoire du projet</a>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="projet">
+              <img class="imageP" src="img/img_projets/partiel_piikti.png" alt="Page d'accueil du projet site web de piikti">
+              <div class="overlay">
+                <div class="blocDesc">
+                  <div class="discover-project">
+                    <?php
+                    if ($adresse == "localhost") {
+                        $projetPiikti = 'piikti.php';
+                    } elseif ($adresse == "daviddognin.com" || $adresse == "www.daviddognin.com") {
+                        $projetPiikti = 'https://daviddognin.com/piikti.php';
+                    }
+                    ?>
+                    <a href="<?= $projetPiikti; ?>" class="see-more">Découvrir l'histoire du projet</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -116,46 +139,16 @@
               <img class="imageP" src="img/img_projets/projet_partiel.jpg" alt="Photo représentant une page d'un site web que j'ai réalisé lors de mes partiels">
               <div class="overlay">
                 <div class="blocDesc">
-                  <h3>La rencontre.</h3>
-                  <p class="textDesc">
-                    Fan de sport ? La Rencontre.com est là pour toi !
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="projet">
-              <img class="imageP" src="img/img_projets/projet_fil_rouge_page_accueille.jpg" alt="Photo représentant une page d'un site web que j'ai réaliséen tant que projet fil rouge">
-              <div class="overlay">
-                <div class="blocDesc">
-                  <h3>Share your spot.</h3>
-                  <p class="textDesc">
-                    Tu aimes la photo ? Le sport ne t'effraie pas ! Viens sur "Share your spot" pour partager tes meilleurs spots.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="projet">
-              <img class="imageP" src="img/img_projets/bannière_site_V2.jpg" alt="Image d'une bannière réalisé pour faire la promotion du site web réalisé pour le projet fil rouge">
-              <div class="overlay">
-                <div class="blocDesc">
-                  <h3>Bannière de promotion pour Share your spot.</h3>
-                  <p class="textDesc">
-                    La communication est toujours essentielle pour faire connaitre nos produits et services.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="projet">
-              <img class="imageP" src="img/img_projets/post_Facebook.jpg" alt="Image d'un Flyer réalisé pour l'occasion d'une journée porte ouverte de mon école">
-              <div class="overlay">
-                <div class="blocDesc">
-                  <h3>Flyer pour la porte ouverte.</h3>
-                  <p class="textDesc">
-                    Projet de flyer pour la porte ouverte. Il faut bien prévenir nos futurs cadets !!
-                  </p>
+                  <div class="discover-project">
+                    <?php
+                    if ($adresse == "localhost") {
+                        $projetRencontre = 'la-rencontre.php';
+                    } elseif ($adresse == "daviddognin.com" || $adresse == "www.daviddognin.com") {
+                        $projetRencontre = 'https://daviddognin.com/la-rencontre.php';
+                    }
+                    ?>
+                    <a href="<?= $projetRencontre; ?>" class="see-more">Découvrir l'histoire du projet</a>
+                  </div>
                 </div>
               </div>
             </div>
